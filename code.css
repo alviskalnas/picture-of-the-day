@@ -5,73 +5,52 @@ body {
     align-items: center;
     background: rgb(124, 255, 70);
     background: linear-gradient(36deg, rgba(124, 255, 70, 1) 0%, rgba(255, 255, 255, 1) 100%);
-}
-
-.main-con {
-
+  }
+  
+  .main-con {
     width: 1000px;
     height: 800px;
     background: rgb(208, 225, 240);
-    background: radial-gradient(circle, rgba(208, 225, 240, 1) 0%, rgba(159, 190, 247, 1) 25%, rgba(197, 192, 200, 1) 83%, rgba(208, 225, 240, 1) 100%);
-}
-
-.main-con .button-con {
-    width: 1000px;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-button {
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-    border-style: dotted;
-    background: rgb(180, 249, 152);
-    background: linear-gradient(36deg, rgba(180, 249, 152, 1) 0%, rgba(155, 221, 246, 1) 100%);
-    transition: 0.3s;
-    font-family: monospace;
-    font-weight: 600;
-}
-
-button:hover {
-    background: rgb(124, 255, 70);
-    background: linear-gradient(36deg, rgba(124, 255, 70, 1) 0%, rgba(51, 134, 166, 1) 100%);
-    color: #fff
-}
-
-.con {
+    background: radial-gradient(
+      circle,
+      rgba(208, 225, 240, 1) 0%,
+      rgba(159, 190, 247, 1) 25%,
+      rgba(197, 192, 200, 1) 83%,
+      rgba(208, 225, 240, 1) 100%
+    );
+  }
+  
+  .main-con .con {
     width: 1000px;
     height: 800px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.main-con .image {
+  }
+  
+  .main-con .image {
     margin-top: 10px;
     width: 600px;
     height: 400px;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-family: monospace;
     color: #333;
     font-size: 35px;
-}
-
-h3 {
+  }
+  
+  h3 {
     margin: 0;
     font-family: monospace;
     color: #333;
     font-size: 25px;
-}
-
-p {
+  }
+  
+  p {
     height: 210px;
     font-family: monospace;
     color: #fff;
     margin: 10px 10px 10px 10px;
     font-size: 16px;
-
-}
+  }
